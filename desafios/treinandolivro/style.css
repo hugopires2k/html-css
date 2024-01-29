@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+h2 {
+    color: navy;
+}
+.primaria {
+    color: black;
+    font-size: 40px;
+}
+div {
+    background-color: blue;
+}

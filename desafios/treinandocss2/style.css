@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0), white);
+    text-align: center;
+
+
+}
+main {
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+   
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    
+}
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align: center;
+}
+img {
+    background-color: white;
+    width: 600px;
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 0px 1px black;
+    padding: 10px;
+}

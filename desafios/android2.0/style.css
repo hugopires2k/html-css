@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    
+}
+@font-face{
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype'); 
+}
+body{
+    background-color: aquamarine;
+    
+}
+header{
+    background-color: green;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.479), rgba(255, 255, 255, 0.247));
+}
+header h1{
+    color: white;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+   text-shadow: 1px 2px 7px black
+}
+header p{
+    color: white;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 5px black;
+}
+nav{
+    background-color: rgb(9, 70, 9);
+    padding: 5px;
+    font-size: 18px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+nav a:hover{
+    color: rgba(10, 148, 10, 0.274);
+}
+main{
+    background-color: white;
+    max-width: 930px;
+    margin: auto;
+    padding: 20px;
+    
+}
+main h1{
+    font-family: 'android';
+    color: rgb(14, 77, 14);
+}
+main p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+main h3{
+    font-family: 'android';
+    color: rgb(14, 77, 14);
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.288), rgba(255, 255, 255, 0.281));
+
+}
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.img1{
+    width: 300px;
+}
+div.video {
+    background-color: green;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 57%;
+}
+div iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside h2{
+    background-color: green;
+    margin: 20px;
+    margin-right: -1px;
+    margin-left: -1px;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+aside{
+    background-color: rgba(127, 255, 212, 0.5);
+}
+aside p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+aside ul{
+    list-style: none;
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    background-color: green;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+footer a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(127, 255, 212, 0.397);
+}
