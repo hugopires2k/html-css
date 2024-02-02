@@ -2,9 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+
+
+
 @font-face{
     font-family: 'Passion One' , 'sem serifa';
 }
+
+@font-face{
+    font-family: 'Sriracha', cursiva;
+}
+
 
 *{
     margin: 0px;
@@ -25,14 +35,14 @@ header {
 header h1{
     color: white;
     font-family: 'Passion One';
-    font-size: 125px;
+    font-size: 10vw;
     padding-top: 50px;
     
 }
 
 header p{
     color: white;
-    padding: 20px;
+    padding: 8px;
     padding-bottom: 50px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +59,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;  
+   
 }
 a:hover{
     text-decoration: underline;
@@ -63,9 +76,10 @@ a:hover{
     color: white;
 
 }
-section p{ 
+section.imagem p{ 
     background-color: rgba(0, 0, 0, 0.255);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
