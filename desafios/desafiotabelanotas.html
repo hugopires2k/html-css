@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            background-color: gray;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3n" scope="rowgroup">Área</th>
+                <th rowspan="3n" scope="col">Disciplina</th>
+                <th colspan="2n" scope="colgroup">Notas</th>
+                <th rowspan="2n" scope="col">Media</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5n" scope="colgroup">Exatas</th>
+            </tr>
+            <tr>
+                <td>Matematica</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <th colspan="4n">Media exatas</th>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <th rowspan="2n">Humanas</th>
+                <td>Historia</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <th colspan="4n" scope="rowgroup">Media Humanas</th>
+                <td>00.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
