@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Exemplo de formularios</h1>
+    <form action="tvd.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </p>
+            <br>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="mail" id="email" required>
+            </p>
+            <br>
+            <p>
+                <label for="tele">Telefone</label>
+                <input type="tel" name="tel" id="tele" autocomplete="tel" required>
+            </p>
+            <br>
+            <p>
+                <input type="submit" value="Enviar" required autocomplete="email">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
