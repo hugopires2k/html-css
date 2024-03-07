@@ -16,6 +16,13 @@ grandes telas: acima de 1200px
     body{
         background-image: url(../imagens/back-print.jpg);
     }
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
     img#phone{
         display: none;
     }
