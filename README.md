@@ -1,2 +1,2 @@
 # Meu Projeto de HTML e CSS  
-Este repositório contém exercícios e desafios do curso.  
+Este repositório contém exercícios e desafios do curso.
